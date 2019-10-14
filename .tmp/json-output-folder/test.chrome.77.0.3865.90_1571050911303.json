@@ -1,0 +1,80 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test",
+    "line": 2,
+    "id": "test",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\krios\\features\\krios.feature",
+    "elements": [
+      {
+        "id": "test;test",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I go to URL \"https://krios.io/\"",
+            "match": {
+              "location": "e2e\\krios\\features\\step_definitions\\common.steps.js:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5702
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I wait for 10000 ms",
+            "match": {
+              "location": "e2e\\krios\\features\\step_definitions\\common.steps.js:456"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10005
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\krios\\helpers\\after.scenario.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "77.0.3865.90"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root>
+<page name ="test">
+<obj name="test" attr="css" value= "test"/>
+</page>
+</root>
