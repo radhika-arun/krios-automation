@@ -16,6 +16,7 @@
   "dependencies": {
     "@angular/compiler": "^5.2.3",
     "@angular/core": "^5.2.3",
+    "@types/jquery": "^3.3.31",
     "core-js": "^2.5.3",
     "cucumber-tsflow": "^2.2.0",
     "exceljs": "^1.10.0",
