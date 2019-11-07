@@ -1,0 +1,9 @@
+{
+    "cucumberautocomplete.steps": [
+    "./e2e/krios/features/step_definitions/common.steps.js",
+    "./e2e/krios/features/step_definitions/*.steps.ts",
+    ],
+    "cucumberautocomplete.syncfeatures": "./e2e/krios/features/**/",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "files.autoSave": "onFocusChange"
+    }
